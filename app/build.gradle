@@ -33,4 +33,7 @@ dependencies {
     //Design library for Coordinator Layout and Toolbars
     implementation 'com.google.android.material:material:1.2.1'
 
+    //BottomNavigationViewEx library
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
+
 }
