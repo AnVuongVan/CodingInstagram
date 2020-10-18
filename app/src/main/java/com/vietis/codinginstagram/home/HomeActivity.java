@@ -1,23 +1,23 @@
-package com.vietis.codinginstagram;
+package com.vietis.codinginstagram.home;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.vietis.codinginstagram.R;
 import com.vietis.codinginstagram.utils.BottomNavigationViewHelper;
 
-public class ProfileActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
-    private Context mContext = ProfileActivity.this;
-    private static final int ACTIVITY_NUM = 4;
+    private Context mContext = HomeActivity.this;
+    private static final int ACTIVITY_NUM = 0;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
@@ -34,5 +34,4 @@ public class ProfileActivity extends AppCompatActivity {
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
     }
-
 }

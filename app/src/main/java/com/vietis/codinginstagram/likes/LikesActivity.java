@@ -1,4 +1,4 @@
-package com.vietis.codinginstagram;
+package com.vietis.codinginstagram.likes;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,12 +9,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.vietis.codinginstagram.R;
 import com.vietis.codinginstagram.utils.BottomNavigationViewHelper;
 
-public class ShareActivity extends AppCompatActivity {
+public class LikesActivity extends AppCompatActivity {
 
-    private Context mContext = ShareActivity.this;
-    private static final int ACTIVITY_NUM = 2;
+    private Context mContext = LikesActivity.this;
+    private static final int ACTIVITY_NUM = 3;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

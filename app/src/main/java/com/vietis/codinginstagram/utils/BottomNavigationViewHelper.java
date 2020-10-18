@@ -8,12 +8,12 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
-import com.vietis.codinginstagram.HomeActivity;
-import com.vietis.codinginstagram.LikesActivity;
-import com.vietis.codinginstagram.ProfileActivity;
+import com.vietis.codinginstagram.home.HomeActivity;
+import com.vietis.codinginstagram.likes.LikesActivity;
+import com.vietis.codinginstagram.profile.ProfileActivity;
 import com.vietis.codinginstagram.R;
-import com.vietis.codinginstagram.SearchActivity;
-import com.vietis.codinginstagram.ShareActivity;
+import com.vietis.codinginstagram.search.SearchActivity;
+import com.vietis.codinginstagram.share.ShareActivity;
 
 public class BottomNavigationViewHelper {
 
