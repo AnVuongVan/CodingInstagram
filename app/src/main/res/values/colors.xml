@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#BFBFBF</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000000</color>
+    <color name="linkBlue">#4D94FF</color>
+    <color name="darkRed">#CC0000</color>
+    <color name="colorDarkRed">#cc0000</color>
+
+    <color name="mCamColorLight">#FAFAFA</color>
+    <color name="mCamColorDark">#424242</color>
+
+</resources>
