@@ -28,7 +28,7 @@ public class BottomNavigationViewHelper {
         view.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Intent intent = null;
+                Intent intent;
                 switch (item.getItemId()) {
                     case R.id.ic_house:
                         intent = new Intent(context, HomeActivity.class);
