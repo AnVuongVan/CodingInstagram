@@ -11,6 +11,7 @@ import com.google.android.material.tabs.TabLayout;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 import com.vietis.codinginstagram.R;
 import com.vietis.codinginstagram.utils.BottomNavigationViewHelper;
+import com.vietis.codinginstagram.utils.SectionsPagerAdapter;
 
 import java.util.Objects;
 

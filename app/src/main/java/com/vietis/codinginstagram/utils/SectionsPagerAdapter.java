@@ -1,4 +1,4 @@
-package com.vietis.codinginstagram.home;
+package com.vietis.codinginstagram.utils;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
