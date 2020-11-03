@@ -18,10 +18,10 @@ import com.vietis.codinginstagram.share.ShareActivity;
 public class BottomNavigationViewHelper {
 
     public static void setupBottomNavigationView(BottomNavigationViewEx bottomNavigationViewEx) {
-        bottomNavigationViewEx.enableAnimation(false);
-        bottomNavigationViewEx.enableItemShiftingMode(false);
-        bottomNavigationViewEx.enableShiftingMode(false);
-        bottomNavigationViewEx.setTextVisibility(false);
+        bottomNavigationViewEx.enableAnimation(true);
+        bottomNavigationViewEx.enableItemShiftingMode(true);
+        bottomNavigationViewEx.enableShiftingMode(true);
+        bottomNavigationViewEx.setTextVisibility(true);
     }
 
     public static void enableNavigation(final Context context, BottomNavigationViewEx view) {
