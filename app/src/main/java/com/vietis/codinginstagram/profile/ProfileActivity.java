@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,11 +19,15 @@ import com.vietis.codinginstagram.utils.BottomNavigationViewHelper;
 public class ProfileActivity extends AppCompatActivity {
 
     private static final int ACTIVITY_NUM = 4;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+        progressBar = findViewById(R.id.profileProgressBar);
+        progressBar.setVisibility(View.GONE);
 
         setupNavigationView();
         setupToolBar();
