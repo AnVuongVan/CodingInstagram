@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".profile.AccountSettingsActivity" />
+
         <activity android:name=".likes.LikesActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".search.SearchActivity" />
